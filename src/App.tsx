@@ -1,16 +1,21 @@
 import React from 'react';
 import './App.css';
+import styled from 'styled-components';
 
 interface Props {
   isText: boolean;
 }
-const App:React.FC<Props> = () =>  {
+
+const Atest = styled.div`
+  color: #f54722;
+`;
+
+const App: React.FC<Props> = () => {
   return (
     <div>
-      
-  <div></div>
+      <Atest>안농</Atest>
     </div>
   );
-}
+};
 
 export default App;
